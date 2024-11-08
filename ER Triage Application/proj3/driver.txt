@@ -1,0 +1,21 @@
+Dump of the leftist heap queue with priorityFn2 (MINHEAP):
+(((87:Ismail Carter:0)80:Libby Russo:1(88:Erika Drake:0))75:Fletcher Beck:2(((107:Addie Greer:0)99:Libby Russo:1(105:Tatiana Buckley:0))89:Tatiana Buckley:1((104:Lachlan Solomon:0)100:Ismail Carter:0)))
+
+Dump of the skew heap queue with priorityFn2 (MINHEAP):
+((((107:Addie Greer)99:Libby Russo)80:Libby Russo((104:Lachlan Solomon)88:Erika Drake))75:Fletcher Beck(((105:Tatiana Buckley)89:Tatiana Buckley)87:Ismail Carter(100:Ismail Carter)))
+
+Preorder traversal of the nodes in the queue with priorityFn2 (MINHEAP):
+Contents of the queue:
+[75] Fletcher Beck, temperature: 39, oxygen: 74, respiratory: 14, blood pressure: 134, nurse opinion: 1
+[80] Libby Russo, temperature: 35, oxygen: 70, respiratory: 10, blood pressure: 159, nurse opinion: 10
+[99] Libby Russo, temperature: 38, oxygen: 97, respiratory: 37, blood pressure: 78, nurse opinion: 2
+[107] Addie Greer, temperature: 39, oxygen: 98, respiratory: 38, blood pressure: 143, nurse opinion: 9
+[88] Erika Drake, temperature: 36, oxygen: 87, respiratory: 27, blood pressure: 99, nurse opinion: 1
+[104] Lachlan Solomon, temperature: 40, oxygen: 99, respiratory: 39, blood pressure: 85, nurse opinion: 5
+[87] Ismail Carter, temperature: 42, oxygen: 85, respiratory: 25, blood pressure: 98, nurse opinion: 2
+[89] Tatiana Buckley, temperature: 36, oxygen: 79, respiratory: 19, blood pressure: 79, nurse opinion: 10
+[105] Tatiana Buckley, temperature: 36, oxygen: 95, respiratory: 35, blood pressure: 70, nurse opinion: 10
+[100] Ismail Carter, temperature: 40, oxygen: 99, respiratory: 39, blood pressure: 110, nurse opinion: 1
+
+Dump of the skew queue with priorityFn1 (MAXHEAP):
+((((141:Tatiana Buckley)189:Ismail Carter((134:Tatiana Buckley)165:Ismail Carter))204:Libby Russo(((162:Erika Drake)164:Lachlan Solomon)187:Fletcher Beck(153:Libby Russo)))220:Addie Greer)

@@ -1,0 +1,40 @@
+is there not a m_prior variable?
+    do i have to call the function 
+    pointer every time?
+        if so, what is the syntax for that?
+
+        - m_priorFunc(patient)
+
+what are the data types of the parameters to 
+    pass to the insert helpers and the merge helpers
+
+    - up to me
+
+are the ~ and clear op the same
+
+    -yes
+
+set priority and set structure can both
+    be done with insert function?
+
+    - pointer to old heap passse dot helper will then return rebuilt tree 
+
+insert function can be helped with the merge function?
+
+    - pretty much just is merge
+
+do i need two merge functions? 
+    for the two structures? or do i just need two for the different heaptypes
+
+    - pass two node*
+    - 
+
+print function should work like writen?
+
+    - yes
+
+chat GPT has answers on theory of how to write the merges. 
+
+
+-------- where i left off... ------------
+    - work on rebuild helper and use that instead of the heap copy thing. maybe itll finally work for some reason idk man
