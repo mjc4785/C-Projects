@@ -1,0 +1,15 @@
+balnace after remove helper is called?
+in remove helper if the value is found i return the temp node before i balan eand stuff. not an issue yet. 
+
+Node* TreeLinked::find(Node* aNode, const Elem& element){
+    if (aNode == nullptr || aNode->m_value == element) 
+        return aNode;
+    else if (aNode->m_value > element)// move to left
+        return find(aNode->m_left, element);
+    else  // the case of (aNode->m_value < element)
+        return find(aNode->m_right, element);// move to right
+}
+Node* TreeLinked::find(const Elem& element){
+    // start searching from root
+    return find(m_root, element);
+}

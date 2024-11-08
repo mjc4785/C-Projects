@@ -1,0 +1,35 @@
+Dump after inserting 10 nodes:
+
+((((19224:0)19289:1(19372:0))20201:2((26241:0)27904:1))47597:3((53002:0)60496:1(93209:0)))
+
+List of satellites after inserting 10 nodes:
+
+19224: Active: 53 degrees: 215 miles
+19289: Active: 53 degrees: 215 miles
+19372: Active: 48 degrees: 208 miles
+20201: Active: 97 degrees: 350 miles
+26241: Active: 97 degrees: 350 miles
+27904: Active: 53 degrees: 215 miles
+47597: Active: 48 degrees: 208 miles
+53002: Active: 48 degrees: 208 miles
+60496: Active: 53 degrees: 215 miles
+93209: Active: 53 degrees: 215 miles
+
+Dump after removig the node with ID: 27904
+
+((((19224:0)19289:1(19372:0))20201:2(26241:0))47597:3((53002:0)60496:1(93209:0)))
+
+List of satellites after removing the node with ID: 27904
+
+19224: Active: 53 degrees: 215 miles
+19289: Active: 53 degrees: 215 miles
+19372: Active: 48 degrees: 208 miles
+20201: Active: 97 degrees: 350 miles
+26241: Active: 97 degrees: 350 miles
+47597: Active: 48 degrees: 208 miles
+53002: Active: 48 degrees: 208 miles
+60496: Active: 53 degrees: 215 miles
+93209: Active: 53 degrees: 215 miles
+
+Calling Tester::sampleTimeMeasurement(...): 
+        Finding 1000 nodes takes 0.000186 seconds.
